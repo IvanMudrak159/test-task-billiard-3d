@@ -56,7 +56,6 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
 *.aab
 *.unitypackage
 *.app
@@ -66,7 +65,9 @@ crashlytics-build.properties
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
+#Ignore all .meta file
+*.meta
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/BarcadeGamesAssetPack/Materials.meta
